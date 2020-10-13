@@ -1,5 +1,5 @@
 --This is a file that represents the 
---default template of an if else 
+--default template of a when else
 --statement in vhdl
 
 --Libraries to be used
@@ -25,10 +25,8 @@ architecture test of when_else is
 
 begin
 
---the if else statement in VHDL is
---always used in a process and works
---in sequence like a program in a 
---standard programming language
+--the when else statement in VHDL is
+--used as a multiplexer in vhdl
 
 
     --process is a function in VHDL used 
@@ -37,4 +35,5 @@ begin
             '0' when a = '0' and b = '1' else
             '0' when a = '1' and b = '0' else
             '1' when a = '1' and b = '1';
+            
 end test;
