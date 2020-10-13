@@ -6,8 +6,6 @@ Read the examples preferably in this order:
 5)when_else
 6)testbench
 
-that is it so far.
-
     Note that it is best if you clone the parent folder and
 modify every circuit as a project of your own in order not to
 lose the template.
