@@ -13,11 +13,11 @@ use ieee.std_logic_1164.all;
 --to explicitly help understand the
 --use of Processes
 
-entity proc is
+entity proces is
 end entity;
 
 --architexture definition
-architecture test of proc is
+architecture test of proces is
 --Signal Declaration
 signal a,b,y,clk : std_logic;
 
@@ -63,10 +63,11 @@ begin
     --Without Sensitivity List:
     process
     begin
-        clk <= 0;
-        wait for clk_period/2  ns;
-        clk <= 1;
-        wait for clk_period/2 ns;
+        clk <= '0';
+        wait for clk_period / 2;
+        
+        clk <= '1';
+        wait for clk_period / 2;
     end process;
     
 --end of circuit
