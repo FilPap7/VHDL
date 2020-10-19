@@ -5,6 +5,11 @@ Read the examples preferably in this order:
 4)if_else
 5)when_else
 6)testbench
+7)case_when
+8)fsm
+
+Note to me:
+case-when , fsm => untested.
 
     Note that it is best if you clone the parent folder and
 modify every circuit as a project of your own in order not to
