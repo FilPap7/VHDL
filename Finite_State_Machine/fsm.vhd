@@ -9,7 +9,7 @@ use ieee.std_logic_1164.all;
 --entity declaration
 entity fsm is
 port(
-    output : out std_logic_vector(1 downto 0);
+    output : out std_logic_vector(1 downto 0)
 );
 end entity;
 

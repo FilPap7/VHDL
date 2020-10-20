@@ -27,20 +27,20 @@ begin
 
     --process is a function in VHDL used 
     --to create sequential logic
-    process
+    process(a)
     begin
         case a is
-            when => "00"
+            when "00"   => 
                 y <= '0';
-            when => "01"
+            when  "01"  => 
+                y <= '0'; 
+            when  "10"  => 
                 y <= '0';
-            when => "10"
-                y <= '0';
-            when => "11"
+            when  "11"  => 
                 y <= '1';
             when others =>
                 y <= 'U';
         end case;
     end process;
             
-end test;
+end arch;
